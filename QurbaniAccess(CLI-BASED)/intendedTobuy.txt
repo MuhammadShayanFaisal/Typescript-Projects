@@ -1,0 +1,7 @@
+Necessary Condition for buying my Goat are:
+The range of Goat price should be: 23000
+The specific colour of Goat should be: white
+The approximate weight of Goat should be: 40
+The approximate height of Goat should be: 30
+If possible, quality of Goat should be: cute
+    
