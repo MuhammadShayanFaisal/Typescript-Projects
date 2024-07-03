@@ -28,8 +28,8 @@ if (pinans.q1 == myPin) {
                 type: "input",
                 validate: (input) => {
                     const numberInput = Number(input);
-                    if (isNaN(input) || numberInput <= 0) {
-                        return ("Amount must be a number and cannot be zero or negative");
+                    if (numberInput > mybalance) {
+                        return ("Amount cannot be greater than the balance");
                     }
                     return true;
                 },

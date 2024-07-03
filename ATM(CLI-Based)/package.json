@@ -1,6 +1,6 @@
 {
-  "name": "atmcli-based",
-  "version": "1.0.0",
+  "name": "bankatmcli-based",
+  "version": "1.0.1",
   "description": "This project contains details about the ATM",
   "main": "index.js",
   "type": "module",
