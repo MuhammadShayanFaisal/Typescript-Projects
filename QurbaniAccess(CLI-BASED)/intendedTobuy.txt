@@ -1,7 +1,7 @@
-Necessary Condition for buying my Goat are:
-The range of Goat price should be: 23000
-The specific colour of Goat should be: white
-The approximate weight of Goat should be: 40
-The approximate height of Goat should be: 30
-If possible, quality of Goat should be: cute
+Necessary Condition for buying my Camel are:
+The range of Camel price should be: 3
+The specific colour of Camel should be: 3
+The approximate weight of Camel should be: 3
+The approximate height of Camel should be: 3
+If possible, quality of Camel should be: 3
     

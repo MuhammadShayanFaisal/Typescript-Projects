@@ -3,5 +3,5 @@ The price of this Goat is: 40000
 The colour of the Goat is: white
 The weight of the Goat is: 40
 The height of the Goat is: 30
-The quality of the Goat is: cute
+The quality of the Goat is: good lookinh
     
