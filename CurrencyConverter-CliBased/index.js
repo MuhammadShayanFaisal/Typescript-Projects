@@ -5,27 +5,21 @@ const currency = {
     EURO: 0.92,
     GBP: 0.78,
     INR: 83.49,
-    PKR: 278.51
+    PKR: 278,
 };
-let user_answer = await inquirer.prompt([
-    {
+let user_answer = await inquirer.prompt([{
         name: "from",
         type: "list",
         choices: ["USD", "EURO", 'GBP', "INR", "PKR"],
         message: "Enter from Currency"
     },
-    {
-        name: "to",
+    { name: "to",
         type: "list",
         message: "Enter to currency",
-        choices: ["USD", "EURO", 'GBP', "INR", "PKR"]
-    },
-    {
-        name: "amount",
+        choices: ["USD", "EURO", 'GBP', "INR", "PKR"] },
+    { name: "amount",
         type: "number",
-        message: "Enter the amount"
-    }
-]);
+        message: "Enter the amount" }]);
 let fromamount = currency[user_answer.from];
 let toamount = currency[user_answer.to];
 let amount = user_answer.amount;
