@@ -12,17 +12,15 @@ let a=await inquirer.prompt(
 console.log("Counting the paragraph or string you entered");
 console.log("Separately counting your words and total characters in your paragraph");
 console.log("----------------------------------------------------------------------");
-let count1=1;
+let count1=1,count2=0;;
 for(let i=0;i<a.Question.length;i++){
-    if(a.Question[i]===" "){
+    if(a.Question[i]===" ")
         count1++;
-    }
     if(i==a.Question.length-1){
         if(a.Question[i]===" ")
-        count1--;    
+        count1--;
     }
 }
-let count2=0;
 console.log("The total number of words in your paragraph is: ",count1);
 for(let i=0;i<a.Question.length;i++){
     if(a.Question[i]!==" "){
