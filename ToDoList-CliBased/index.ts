@@ -3,8 +3,9 @@ import inquirer from"inquirer"
 let todos=[];
 let condition =true;
 while(condition){
-    let todoQuestions=await inquirer.prompt([
-            {
+    let todoQuestions=await inquirer.prompt(
+        [
+        {
                 name:"firstquestion",
                 type:"input",
                 message:"What do you want to add in your todos?",
