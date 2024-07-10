@@ -5,7 +5,14 @@ let a=await inquirer.prompt(
         {
             name:"Question",
             type:"input",
-            message:"Enter the Paragraph"
+            message:"Enter the Paragraph",
+            validate: (input) => {
+                const stringInput = String(input);
+                if (stringInput===" "||stringInput==="") {
+                    return ("Paragraph cannot be empty");
+                }
+                return true;
+            },
         }
     ]
 );
@@ -16,7 +23,7 @@ let count1=1,count2=0;;
 for(let i=0;i<a.Question.length;i++){
     if(a.Question[i]===" ")
         count1++;
-    if(i==a.Question.length-1){
+    if(i===a.Question.length-1||i===0){
         if(a.Question[i]===" ")
         count1--;
     }
